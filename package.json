@@ -1,0 +1,19 @@
+{
+  "name": "javascript_study",
+  "version": "1.0.0",
+  "description": "",
+  "main": "arrowFunction.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DongwookJeong/javascript_study.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DongwookJeong/javascript_study/issues"
+  },
+  "homepage": "https://github.com/DongwookJeong/javascript_study#readme"
+}
