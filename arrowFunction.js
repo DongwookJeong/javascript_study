@@ -37,3 +37,24 @@ const sum = (a, b) => {
     return result;
 }
 console.log(sum(3,4))
+
+// ! 즉시 실행 함수로 사용 가능
+const person = (name => ({
+    sayHi(){return `hi? My name is ${name}.`;}
+}))('Jeong');
+
+console.log(person.sayHi())
+
+// ! 고차 함수에 인수로 전달 가능
+// ES5
+/*
+[1, 2, 3].map(function(v){
+    return v * 2;
+})
+*/
+// ES6
+const oneTwoThee = [1, 2, 3]
+let num3 = oneTwoThee.map(v=>v*2)
+console.log(num3)
+
+
