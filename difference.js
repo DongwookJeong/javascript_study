@@ -11,4 +11,6 @@ Foo2.hasOwnProperty('prototype')
 function normal(a, a){return a + a}
 console.log(normal(2, 3))
 
-const arrow = (a, a) => a + a;
+const arrow = (a, a) => a + a; //SyntaxError: Duplicate parameter name not allowed in this context
+
+// ! 화살표 함수는 함수 자체의 this, arguments, super, new.target 바인딩을 갖지 않는다.
